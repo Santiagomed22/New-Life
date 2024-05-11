@@ -1,0 +1,68 @@
+/*=============== LOGO ===============*/
+
+/*=============== IMAGEN ===============*/
+.logo__footer img {
+  height: 60px;
+  border-radius: 50px;
+  padding: 1%;
+}
+
+.logo__footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+span {
+  font-size: 25px;
+}
+
+span:hover {
+  color: white;
+}
+
+/*=============== REDES SOCIALES ===============*/
+
+.redes-sociales {
+  flex-wrap: wrap;
+}
+
+/*-- FACEBOOK --*/
+.fb {
+  background: blue;
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+}
+
+/*-- TELEGRAM --*/
+.tlm {
+  background: #0cb1f3;
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+}
+
+/*-- TWETTER --*/
+.twt {
+  background: #00acee;
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+}
+
+/*-- INSTAGRAM --*/
+.ing {
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+  background: pink;
+}
+
+/*-- TREADS --*/
+.trd {
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+  background: fuchsia;
+}

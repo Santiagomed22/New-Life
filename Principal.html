@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmobiliaria New Life</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/filtrosBusquedas.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/redessociales.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav__container">
+        <div>
+          <a href="#" class="nav__logo">
+            <img src="images/logo.jfif" alt="logoempresa" />
+          </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav-link">Home</a></li>
+
+            <li class="nav__item">
+              <a href="aboutus.html" class="nav-link">about us</a>
+            </li>
+
+            <li class="nav__item"><a href="#" class="nav-link">services</a></li>
+
+            <li class="nav__item">
+              <a href="contactUs.html" class="nav-link">contact us</a>
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <!-- search button -->
+          <i class="ri-search-line nav__search" id="search-btn"></i>
+
+          <!-- login button -->
+          <a href="login.html">
+            <i class="ri-user-line nav__login" id="login-btn"></i>
+          </a>
+
+          <!-- toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search">
+      <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          class="search__input"
+        />
+      </form>
+
+      <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+    <!--==================== LOGIN ====================-->
+
+    <!--==================== MAIN ====================-->
+    <main>
+      <br />
+      <!--===== FILTRO DE BUSQUEDA =====-->
+
+      <div class="Filtro-Busqueda">
+        <div class="card-header">
+          <i class="ri-home-heart-fill"></i> Propiedades Disponibles
+          <i class="ri-home-heart-fill"></i>
+        </div>
+        <br />
+
+        <div class="container-filtro">
+          <div class="card header-bottom">
+            <i class="ri-filter-2-fill"></i>Realizar Consulta Personalizada
+          </div>
+
+          <div class="card-body">
+            <div class="num">
+              <label for="Estado"
+                ><i class="ri-home-gear-fill"></i>Estado</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="Casa">en Arriendo</option>
+                <option value="Apartamento">En Venta</option>
+                <option value="Finca">En Venta U Arriendo</option>
+              </select>
+            </div>
+            <div class="num">
+              <label for="Tipo de Propiedad"
+                ><i class="ri-home-gear-fill"></i>Tipo de Propiedad</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Finca">Finca</option>
+                <option value="Local">Local</option>
+                <option value="Penthouse">Penthouse</option>
+                <option value="Casa con Local">Casa con Local</option>
+                <option value="lote">lote</option>
+              </select>
+            </div>
+            <div class="num">
+              <label for="Habitaciones"
+                ><i class="ri-hotel-bed-fill"></i>Habitaciones</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div class="num">
+              <label for="Nivel de Planta"
+                ><i class="ri-building-fill"></i>Nivel de Planta</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+            <div class="num">
+              <label for="Departamento"
+                ><i class="ri-treasure-map-fill"></i>Departamento</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="Bello">Antioquia</option>
+              </select>
+            </div>
+            <div class="num">
+              <label for="Municipio"
+                ><i class="ri-road-map-fill"></i>Municipio</label
+              >
+              <select class="select" name="" id="Seleccionar">
+                <option value="Seleccionar">Selecionar</option>
+                <option value="Bello">Bello</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Abejorral">Abejorral</option>
+                <option value="Rionegro">Rionegro</option>
+                <option value="Guatape">Guatape</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="pie">
+      <div class="footer1">
+        <!--============ Logo ============-->
+        <div class="logo__footer">
+          <img src="images/logo.jfif" alt="" />
+          <p>Inmobiliaria new life</p>
+        </div>
+        <!--============ REDES SOCIALES ============-->
+        <div class="redes-sociales">
+          <span class="fb"><i class="ri-facebook-fill"></i></span>
+          <span class="ing"><i class="ri-instagram-line"></i></span>
+          <span class="twt"><i class="ri-twitter-fill"></i></span>
+          <span class="trd"><i class="ri-threads-fill"></i></span>
+          <span class="tlm"><i class="ri-telegram-line"></i></span>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <!--============ SECCION INFORMATIVA ============-->
+      <div class="section__inf">
+        <div>
+          <h2>Nuestros Servicios</h2>
+          <a href="#" class="datos__footer">Arrendamientos</a>
+          <a href="#" class="datos__footer">Finca Raiz</a>
+          <a href="#" class="datos__footer">Avaluos</a>
+        </div>
+        <div>
+          <h2>New Life</h2>
+          <a href="#" class="datos__footer">La Empresa</a>
+          <a href="#" class="datos__footer">Nuestro Equipo</a>
+          <a href="#" class="datos__footer">Trabaja con Nosotros</a>
+        </div>
+        <div>
+          <h2>Atención a Clientes</h2>
+          <a href="#" class="datos__footer">Dudas o Comentario</a>
+          <a href="#" class="datos__footer">centro de Ayudas</a>
+        </div>
+        <div>
+          <h2>Legalidad</h2>
+          <a href="" class="datos__footer">Terminos sobre el servicio</a>
+          <a href="" class="datos__footer">Politica de tratamiento de datos</a>
+          <a href="" class="datos__footer">PQRS</a>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <!--============ SECCION COPYRIGHT ============-->
+
+      <div class="copy__right">
+        <p>Copy Right</p>
+        <p>privacy policy terems and conditions</p>
+      </div>
+    </footer>
+    <script src="Js/main.js"></script>
+  </body>
+</html>
