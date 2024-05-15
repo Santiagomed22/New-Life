@@ -29,6 +29,11 @@ div h2 {
   text-decoration: none;
 }
 
+.logo__footer{
+  mix-blend-mode: multiply;
+  padding: auto;
+}
+
 /*=============== COPYRIGHT ===============*/
 .copy__right {
   display: flex;

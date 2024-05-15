@@ -91,6 +91,7 @@ a {
   height: 60px;
   padding: 1px;
   background: transparent;
+  mix-blend-mode: multiply;
 }
 
 .nav {
