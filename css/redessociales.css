@@ -25,44 +25,12 @@ span:hover {
 
 .redes-sociales {
   flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
 }
-
-/*-- FACEBOOK --*/
-.fb {
-  background: blue;
-  padding: 8px;
-  border-radius: 50px;
-  color: black;
-}
-
-/*-- TELEGRAM --*/
-.tlm {
-  background: #0cb1f3;
-  padding: 8px;
-  border-radius: 50px;
-  color: black;
-}
-
-/*-- TWETTER --*/
-.twt {
-  background: #00acee;
-  padding: 8px;
-  border-radius: 50px;
-  color: black;
-}
-
-/*-- INSTAGRAM --*/
-.ing {
-  padding: 8px;
-  border-radius: 50px;
-  color: black;
-  background: pink;
-}
-
-/*-- TREADS --*/
-.trd {
-  padding: 8px;
-  border-radius: 50px;
-  color: black;
-  background: fuchsia;
+.texto{
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
 }
