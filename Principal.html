@@ -4,90 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inmobiliaria New Life</title>
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/filtrosBusquedas.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/redessociales.css" />
+
+    <!--====================  link css navbar ====================-->
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!--====================  link remixicons ====================-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <!--====================  favicon image ====================-->
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
 
+    <!--====================  link Bootstrap ====================-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <!--====================  link icons Bootstrap ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--====================  link css awesom Bootstrap ====================-->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
   </head>
   <body>
     <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav__container">
-        <div>
-          <a href="#" class="nav__logo">
-            <img src="images/logo.jfif" alt="logoempresa" />
-          </a>
-        </div>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#" class="nav-link">Home</a></li>
-
-            <li class="nav__item">
-              <a href="aboutus.html" class="nav-link">about us</a>
-            </li>
-
-            <li class="nav__item"><a href="#" class="nav-link">services</a></li>
-
-            <li class="nav__item">
-              <a href="contactUs.html" class="nav-link">contact us</a>
-            </li>
-          </ul>
-
-          <!-- close button -->
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
-          </div>
-        </div>
-
-        <div class="nav__actions">
-          <!-- search button -->
-          <i class="ri-search-line nav__search" id="search-btn"></i>
-
-          <!-- login button -->
-          <a href="login.html">
-            <i class="ri-user-line nav__login" id="login-btn"></i>
-          </a>
-
-          <!-- toggle button -->
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-line"></i>
+    
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid pt-2 my-2">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Viviendas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form  role="search">
+                <button class="btn btn-outline-light" type="submit">Admin</button>
+            </form>
+            <div class="icon d-flex" style="margin-left: 20px;" >
+                <a class="bg-dark" href="Login.html">
+                    <i class="bi bi-person"></i>
+                </a>
+            </div>
           </div>
         </div>
       </nav>
-    </header>
+    
 
     <!--==================== SEARCH ====================-->
-    <div class="search" id="search">
-      <form action="" class="search__form">
-        <i class="ri-search-line search__icon"></i>
-        <input
-          type="search"
-          placeholder="What are you looking for?"
-          class="search__input"
-        />
-      </form>
 
-      <i class="ri-close-line search__close" id="search-close"></i>
-    </div>
     <!--==================== LOGIN ====================-->
 
     <!--==================== MAIN ====================-->
@@ -201,6 +187,8 @@
     <footer class="bg-dark text-white pt-5 pb-4">
       <div class="container-footer text-center text-md-left">
         <div class="row text-center text-md-left">
+
+          <!--====================  contenedor inmobiliaria ====================-->
           <div class="col md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4">
               INMOBILIARIA NEW LIFE
@@ -211,6 +199,8 @@
               tempora optio tenetur accusamus perferendis nihil.
             </p>
           </div>
+
+          <!--====================  contenedor legalidad ====================-->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4">
               Legalidad
@@ -261,6 +251,8 @@
               </a>
             </p>
           </div>
+
+          <!--==================== Contenedor Contac us ====================-->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5
               class="text-uppercase mb-4 font-weight-bold text-white fs-4 fload-start"
@@ -271,12 +263,14 @@
             <p class="fs-6">
               <i class="fas fa-home mr-3"></i> Medellín, Antioquia
             </p>
-            <p class="fs-6"><i class="fas fa-envelope mr-3"></i> house</p>
-            <p class="fs-6"><i class="fas fa-phone mr-3"></i> mousr</p>
-            <p class="fs-6"><i class="fas fa-print mr-3"></i> oisfpa</p>
+            <p class="fs-6" ><i class="fas fa-envelope mr-3"></i> InmobiliariaNewlife@gmail.com</p>
+            <p class="fs-6"><i class="fas fa-phone mr-3"></i> +57 3208941249</p>
+            <p class="fs-6"><i class="bi bi-geo-alt-fill"></i> CALLE 49 #41-09 </p>
           </div>
         </div>
         <hr class="mb-4" />
+
+        <!--====================  contenedor copyright y redes sociales ====================-->
         <div class="row align-items-center p-1">
           <div class="col col-md-6 col-lg-8 d-flex">
             <p class="m-25">
@@ -333,6 +327,8 @@
         </div>
       </div>
     </footer>
+
+    <!--====================  script Bootstrap ====================-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
