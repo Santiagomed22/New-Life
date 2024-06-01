@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Inmobiliaria New Life</title>
+  <link rel="website icon" type="png" href="logo nuevo.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/contactos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid pt-2 my-2">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Viviendas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Contacto</a>
+        </li>
+      </ul>
+      <form role="search">
+        <button class="btn btn-outline-light" type="submit">Admin</button>
+      </form>
+      <div class="icon d-flex" style="margin-left: 20px;">
+        <a class="bg-dark" href="index2.html">
+          <i class="bi bi-person"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+  <!-- <header><a href="#">Inicio</a></header> -->
+  <main>
+    <div class=" row container">
+
+      <div class="col-6">
+        <form id="form" class="p-3 was-validated">
+          <div class="field">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" class="form-control" required placeholder="Nombre">
+          </div>
+          <div class="field">
+            <label for="Telefono">Telefono</label>
+            <input type="text" name="Telefono" id="Telefono" class="form-control" required placeholder="Telefono">
+          </div>
+          <div class="field">
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" class="form-control" required placeholder="Email">
+          </div>
+
+
+
+          <div class="field">
+            <label for="Mensaje">Mensaje</label>
+            <textarea type="text" name="Mensaje" id="Mensaje" class="form-control" required placeholder="Mensaje"
+              rows="5"></textarea>
+            <br>
+          </div>
+          <input type="submit" id="button" class="btn btn-success" value="Enviar Email">
+        </form>
+      </div>
+
+      <!-- Mapa de Google Maps -->
+
+      <div class="col-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4324833804585!2d-75.54798622635151!3d6.337987125294116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f11a205b239%3A0xa3974aa926dbfac1!2sCesde%20sede%20norte!5e0!3m2!1ses!2sco!4v1717025826439!5m2!1ses!2sco"
+          width="100%" height="450" style="border:0;" padding="550px" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+    </div>
+  </main>
+  <!--==================== FOOTER ====================-->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container-footer text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4">
+            INMOBILIARIA NEW LIFE
+          </h5>
+          <p class="fs-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            aperiam ipsum itaque, totam est quibusdam dicta rerum perspiciatis
+            tempora optio tenetur accusamus perferendis nihil.
+          </p>
+        </div>
+         <!--==================== CAJA DE LEGALIDAD ====================-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4">
+            Legalidad
+          </h5>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Terminos De El Servicio
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Tratamiento De Datos
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Dudas O Comentarios
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">PQRSF
+            </a>
+          </p>
+        </div>
+         <!--==================== CAJA DE SERVICIOS ====================-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4">
+            Nuestros Servicios
+          </h5>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Arrendamientos
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Avaluos
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Finca Raíz
+            </a>
+          </p>
+          <p class="fs-6">
+            <a href="#" class="text-white" style="text-decoration: none">Centro De Ayudas
+            </a>
+          </p>
+        </div>
+         <!--==================== CONTACT US ====================-->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white fs-4 fload-start" style="justify-content: center">
+            Contact us
+          </h5>
+          <p class="fs-6">
+            <i class="fas fa-home mr-3"></i> Medellín, Antioquia
+          </p>
+          <p class="fs-6"><i class="bi bi-house"></i> House</p>
+          <p class="fs-6"><i class="bi bi-telephone"></i> Telefono</p>
+          <p class="fs-6"><i class="bi bi-envelope"></i> Email</p>
+        </div>
+      </div>
+      <hr class="mb-4" />
+      <!--==================== COPYRIGHT ====================-->
+      <div class="row align-items-center p-1">
+        <div class="col-md-6 col-lg-8 d-flex">
+          <p class="m-25">
+            Copyright 2024 All Rights Reserver By:
+            <strong class="text-white"></strong>
+          </p>
+        </div>
+         <!--==================== ICONOS ====================-->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-sm text-white"
+                  style="text-decoration: none" style="font-size: 30px"><i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://web.telegram.org/k/" target="_blank" class="btn-floating btn-sm text-white"
+                  style="text-decoration: none" style="font-size: 30px"><i class="bi bi-telegram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none"
+                  class="btn-floating btn-sm text-white" style="font-size: 30px"><i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.threads.net/" style="text-decoration: none" target="_blank"
+                  class="btn-floating btn-sm text-white" style="font-size: 30px"></a><i class="bi bi-threads"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/contactos.js"></script>
+</body>
+
+</html>

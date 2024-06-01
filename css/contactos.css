@@ -1,0 +1,75 @@
+.main{
+    justify-content: space-between;
+    margin: 50px;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.icon{
+    font-size: 25px;
+}
+.icon a{
+    color: white;
+}
+/* Estilos para dispositivos de pantalla pequeña */
+@media (max-width: 768px) {
+    /* Ajusta el tamaño del logo en la barra de navegación */
+    .navbar-brand {
+      font-size: 20px;
+    }
+    
+    /* Ajusta el tamaño del botón de administración */
+    .btn-outline-light {
+      font-size: 14px;
+    }
+    
+    /* Ajusta el tamaño de la fuente del footer */
+    .footer-text {
+      font-size: 14px;
+    }
+    
+    /* Ajusta el tamaño de los iconos en el footer */
+    .bi {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos para dispositivos de pantalla mediana */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Ajusta el tamaño del logo en la barra de navegación */
+    .navbar-brand {
+      font-size: 24px;
+    }
+    
+    /* Ajusta el tamaño del botón de administración */
+    .btn-outline-light {
+      font-size: 16px;
+    }
+    
+    /* Ajusta el tamaño de la fuente del footer */
+    .footer-text {
+      font-size: 16px;
+    }
+    
+    /* Ajusta el tamaño de los iconos en el footer */
+    .bi {
+      font-size: 24px;
+    }
+  }
+  
